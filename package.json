@@ -1,0 +1,31 @@
+{
+  "name": "@udock/vue-plugin-iview",
+  "description": "@udock/vue-plugin-iview",
+  "private": true,
+  "version": "0.0.1",
+  "main": "dist/index.umd.js",
+  "module": "dist/index.esm.js",
+  "files": [
+    "dist",
+    "lib",
+    "template"
+  ],
+  "scripts": {
+    "build": "@udock/build-tools rollup"
+  },
+  "dependencies": {
+    "array-includes": "^3.0.3",
+    "lodash": "^4.17.4",
+    "pify": "^3.0.0",
+    "string.prototype.includes": "^1.0.0"
+  },
+  "peerDependencies": {
+    "iview": "^2.13.1",
+    "less": "^3.0.2",
+    "less-loader": "^4.0.5",
+    "@udock/vue-plugin-ui": "^0.0.1"
+  },
+  "devDependencies": {
+    "@udock/build-tools": "^0.0.1"
+  }
+}
