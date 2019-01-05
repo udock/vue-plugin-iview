@@ -11,7 +11,7 @@
     "template"
   ],
   "scripts": {
-    "build": "@udock/build-tools rollup"
+    "build": "udock-build-tools rollup"
   },
   "dependencies": {
     "array-includes": "^3.0.3",
@@ -26,6 +26,6 @@
     "@udock/vue-plugin-ui": "^0.0.1"
   },
   "devDependencies": {
-    "@udock/build-tools": "^0.0.1"
+    "@udock/build-tools": "^0.0.2"
   }
 }
